@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#cart_header_info {background: transparent;width: 50%;font-size: 16px;}
+#item_count {margin: 5px 0 5px 0;}
+.content {width: 100%;}
+.cart_placeholder {border-radius: 7px; background: #efefef; padding: 5px; margin-left: 10px; float: right; width: 20%; }
+
+.cart_placeholder #cart_header { margin: 20px 0 0 0; font-weight: bold; font-size: 18px; }
+.cart_placeholder #cart_logo { width: 75px; height: 75px; margin: 10px; float: left; }
+
+/* Style for the confirmation button in the cart */
+.ConfimCart {width: 93%;float: left;}
+.ConfimCart a {display:block;text-decoration: none;background: #bb0016;border: 1px solid white; padding: 5px;text-align: center; color: white;width: 100%;}
+
+.catalog_placeholder { border-radius: 7px; background: #efefef; margin: 10px; overflow: visible;}
+
+.cart_item { float: left; background: #ffffff; border: 1px solid #bfbfbf; box-shadow: 1px 1px 4px #cccccc; width: 100%; position: relative;}
+.cart_item #close {position: absolute;bottom: 0;right: 0;width: 15px;height: 15px;cursor: pointer;}
+
+.catalog_item {float: left;margin: 10px;background: #ffffff;border: 1px solid #bfbfbf;box-shadow: 1px 1px 4px #cccccc;}
+.catalog_item ul, .cart_placeholder ul{ float: left; font-size: 13px; margin: 5px; list-style: none; padding: 0; background: #ffffff;}
+.catalog_item a {display:block;text-decoration: none;background: #bb0016;border: 1px solid white; padding: 3px;text-align: center; color: white;width: 95%;margin: 3px 5px 0 0;}
+.catalog_item ul li label, .cart_placeholder ul li label { color: #ef0000; font-weight: bold;}
+.catalog_item img, .cart_placeholder img{ float: left; width: 100px; height: 100px; margin: 5px;}
+.catalog_item ul li .item_id, .cart_placeholder ul li .item_id { color: #228810;}
